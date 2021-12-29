@@ -5,14 +5,15 @@
 2. * Tim LT#3032
    * timofeylt (tg)
 ****
-3. I am quite C\curious and always try to learn something new and interesting for me. And now I try to find usefull and new to expand my knowledge and skills in programming.
+3. I am quite curious and always try to learn something interesting for me. And now I want to find something usefull and new to expand my knowledge and skills in programming.
 ****
 4. ## Skills
 * c/c++
 * html/css
-* js basics
+* js (basics)
 * figma/photoshop/illustrator
 * bash (basics)
+
 ****
 5. ## Code Example
 
