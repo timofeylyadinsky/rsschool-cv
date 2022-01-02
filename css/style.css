@@ -1,5 +1,39 @@
 body{
-	padding: 1% 1% 1%;
+	margin: 0;
 	font-family: 'Montserrat', "Arial" , sans-serif;
 	background: #CCCCCC;
+}
+#container {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	padding: 0;
+	width: 90%;
+	background: #696969;
+}
+nav{
+	position:fixed;
+	width: 90%;
+	margin: 0 auto;
+}
+.nav-list{
+	display: flex;
+	margin: 0;
+	padding: 0;
+    align-items: center;
+    justify-content: space-around;
+	list-style-type: none;
+	background: #696969;
+
+}
+.nav-list li{
+	display: inline;
+}
+.nav-link{
+	color: #000000;
+	text-decoration: none;
+}
+.nav-link:hover {
+	color: #000099;
+	text-decoration: none;
 }
