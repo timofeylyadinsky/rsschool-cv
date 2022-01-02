@@ -5,12 +5,101 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rsschool-cv</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">  
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-    <p>1. Tsimafey Liadzinski</p>
-    <p>Contacts<br>
-        * Tim LT#3032<br>
-        * timofeylt (tg)</p>
+<body>        
+    <div id="container">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#code" class="nav-link">Code</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#english" class="nav-link">English</a></li>
+            </ul>
+        </nav>
+        <header>
+            <img src="img/photo.jpg" alt="Timofey Lyadinsky Photo" title="Timofey Lyadinsky Photo" class="header-photo">
+            <div class="header-container">
+                <h1>Timofey Lyadinsky</h1>
+                <h3>Junior Front-end developer</h3>
+            </div>
+        </header>
+        <main>
+            <aside class="aside">
+                <section class="section-contacts section" id="contacts">
+                    <h2>Contacts</h2>
+                    <div class="cross-line"></div>
+                    <ul class="aside-list">
+                        <li>Discord: <a href="#" title="contacts discord" class="contacts-link">Tim LT#3032</a></li>
+                        <li>Telegram: <a href="https://t.me/timofeylt" title="contacts telegram" class="contacts-link">@timofeylt</a></li>
+                        <li>GitHub: <a href="https://github.com/timofeylyadinsky/" title="contacts github" class="contacts-link">@timofeylyadinsky</a></li>
+                    </ul>
+                </section>
+                <section class="section-skills section" id="skills">
+                    <h2>Skills</h2>
+                    <div class="cross-line"></div>
+                    <ul class="aside-list">
+                        <li>C/C++</li>
+                        <li>html/css</li>
+                        <li>js(basics)</li>
+                        <li>photoshop/illustrator</li>
+                    </ul>
+                </section>
+                <section class="section-english section" id="english">
+                    <h2>English</h2>
+                    <div class="cross-line"></div>
+                    <p>A2+(Pre Intermediate)</p>
+                </section>
+            </aside>
+            <div class="main">
+                <section class="section-about section" id="about">
+                    <h2>About</h2>
+                    <div class="cross-line"></div>
+                    <p class="text-about">
+                        I am quite curious and always try to learn something interesting for me. And now I want to find something usefull and new to expand my knowledge and skills in programming.
+                    </p>
+
+                </section>
+                <section class="section-code section" id="code">
+                    <h2>Code Example</h2>
+                    <div class="cross-line"></div>
+<pre class="pre"><code>function century(year) {
+    if((year%100 == 0)) return Math.floor(year/100);
+    else return Math.floor(year/100+1);
+}</code></pre>
+
+                </section>
+                <section class="section-projects section" id="projects">
+                    <h2>Projects</h2>
+                    <div class="cross-line"></div>
+                   <div class="project-container"><a href="https://timofeylyadinsky.github.io/rsschool-cv/" title="Project CV" class="projects-link"><img src="img/cv.jpg" alt="project cv" title="project cv"></a></div>
+                   
+
+
+                </section>
+                <section class="section-education section" id="education">
+                    <h2>Education</h2>
+                    <div class="cross-line"></div>
+                    <ul>
+                        <li>Mechanics and Mathematics faculty</li>
+                        <li><b>Courses</b>
+                            <ul>
+                                <li>RsSchool: stage#0</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <p class="footer-text">&copy; 2022</p><a href="https://github.com/timofeylyadinsky/" title="contacts github" class="contacts-link footer-text">timofeylyadinsky</a>
+            <a href="https://rs.school/js/" class="rss"></a>
+        </footer>
+    </div>
 </body>
 </html>
